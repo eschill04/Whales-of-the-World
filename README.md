@@ -1,10 +1,10 @@
 # 🐋 Whales of the World
 Data Science Final Project 
-### By *Eva, Manav, Wangdrak, Akira*
+### By Eva, Manav, Wangdrak, Akira
 
 ![](./poster_image.png)
+_Code and cleaned data redacted to preserve course privacy_
 
-*Code and cleaned data redacted to preserve course privacy*
 ----
 We have curated a database containing data on blue whales, marine animals, and krill populations, each joined via time and location with global climate data on ocean temperature, ocean salinity, and chlorophyll concentrations. 
 Our blue whale is collected from [Argos Data](https://www.datarepository.movebank.org/handle/10255/move.838), while our marine animal data contains data from two sources: [OBIS-SEAMAP](https://www.frontiersin.org/articles/10.3389/fmars.2022.837604/full) and [US Geological Survey](https://www.usgs.gov/centers/alaska-science-center/science/north-pacific-pelagic-seabird-database). Both whale and marine animal data are based on opportunistic sightings, and all are located in the Eastern Pacific Ocean along the coast of the Western United States. Our krill data, collected from the [British Antarctic Survey](https://www.bas.ac.uk/project/krillbase/#data), is based on net sampling and is located in the Southern Ocean. In addition to the climate data listed above, it has been joined with yearly data from the [International Whaling Commission](https://iwc.int/management-and-conservation/whaling/total-catches) on total whales caught in the Antarctic region. Finally, all of our aforementioned ocean climate data is collected from Google Earth Engine’s [HYCOM](https://developers.google.com/earth-engine/datasets/catalog/HYCOM_sea_temp_salinity) data and [Ocean Color SMI data](https://developers.google.com/earth-engine/datasets/catalog/NASA_OCEANDATA_MODIS-Aqua_L3SMI#bands), and is joined based on date, longitude, and latitude  with every species’ data.
